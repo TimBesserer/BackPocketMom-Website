@@ -68,14 +68,29 @@ const FORM_ENDPOINT = "https://app.kit.com/forms/9580235/subscriptions"; // Kit/
       var button = form.querySelector("button[type=submit]");
       if (button) { button.disabled = true; button.dataset.label = button.textContent; button.textContent = "sending…"; }
 
+      // Send ONLY the email as application/x-www-form-urlencoded. Kit parses
+      // urlencoded (like a normal form POST) and JSON, but NOT multipart/form-data
+      // — so the old FormData body was accepted with a 200 yet silently ignored,
+      // which is why the page said "got it" while Kit recorded nothing.
+      // URLSearchParams also keeps this a simple CORS request (no preflight) and
+      // leaves the honeypot field out of the payload.
+      var emailField = form.querySelector('input[name="email_address"]');
+      var body = new URLSearchParams();
+      body.append("email_address", emailField ? emailField.value : "");
+
       fetch(FORM_ENDPOINT, {
         method: "POST",
-        body: new FormData(form),
+        body: body,
         headers: { Accept: "application/json" }
       })
         .then(function (res) {
-          if (res.ok || res.status === 0) showConfirm(form, status);
-          else showRetry(form, status, button);
+          if (!res.ok) { showRetry(form, status, button); return; }
+          // Confirm against Kit's actual response, not just the HTTP status.
+          return res.json().then(function (d) { return d; }, function () { return {}; })
+            .then(function (data) {
+              if (data && (data.status === "failed" || data.error)) showRetry(form, status, button);
+              else showConfirm(form, status);
+            });
         })
         .catch(function () {
           showRetry(form, status, button);
