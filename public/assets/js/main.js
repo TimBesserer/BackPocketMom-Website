@@ -14,7 +14,7 @@
    This same value is ALSO set on each <form action="..."> in the HTML so
    the form still works if JavaScript fails to load. Keep them in sync.
    ------------------------------------------------------------ */
-const FORM_ENDPOINT = "PASTE_KIT_FORM_POST_URL_HERE"; // Kit/ConvertKit form action; or Beehiiv/Buttondown/Formspree
+const FORM_ENDPOINT = "https://app.kit.com/forms/9580235/subscriptions"; // Kit/ConvertKit form action; or Beehiiv/Buttondown/Formspree
 
 /* ------------------------------------------------------------ */
 
