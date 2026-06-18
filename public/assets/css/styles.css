@@ -316,45 +316,17 @@ p  { margin: 0 0 1rem; }
 }
 .privacy-band .btn--ghost:hover { background: var(--cream); color: var(--espresso); border-color: var(--cream); }
 
-/* ----------------------- pricing teaser ----------------------- */
-.pricing { background: var(--card-surface); text-align: center; }
-.pricing__head { max-width: 46ch; margin: 0 auto clamp(2.5rem, 5vw, 3.5rem); }
-.pricing__head p { color: var(--ink-soft); font-size: 1.1rem; }
-
-.plans {
-  display: grid; gap: 1.25rem;
-  grid-template-columns: 1fr; max-width: 760px; margin-inline: auto;
-  text-align: left;
+/* ----------------------- faq ----------------------- */
+.faq { background: var(--card-surface); }
+.faq__head { text-align: center; max-width: 44ch; margin: 0 auto clamp(2rem, 5vw, 3rem); }
+.faq__list { display: grid; gap: 1.5rem; max-width: 760px; margin-inline: auto; }
+.faq__item {
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 1.4rem;
 }
-@media (min-width: 720px) { .plans { grid-template-columns: repeat(2, 1fr); } }
-
-.plan {
-  border: 1px solid var(--line);
-  border-radius: var(--radius-lg);
-  padding: 1.75rem;
-  background: var(--cream);
-}
-.plan--premium { border-color: var(--terracotta); box-shadow: var(--shadow-card); position: relative; }
-.plan__tag {
-  display: inline-block; font-size: 0.72rem; font-weight: 600;
-  letter-spacing: 0.08em;
-  color: var(--espresso); background: var(--terracotta);
-  padding: 0.25rem 0.7rem; border-radius: var(--radius-pill);
-  margin-bottom: 0.9rem;
-}
-.plan h3 { font-size: 1.4rem; margin-bottom: 0.2rem; }
-.plan__price { font-family: var(--sans); font-weight: 600; color: var(--espresso-light); margin-bottom: 1rem; }
-.plan ul { list-style: none; margin: 0; padding: 0; }
-.plan li {
-  position: relative; padding-left: 1.6rem; margin-bottom: 0.55rem;
-  color: var(--ink-soft); font-size: 0.97rem;
-}
-.plan li::before {
-  content: ""; position: absolute; left: 0; top: 0.55em;
-  width: 8px; height: 8px; border-radius: 50%;
-  background: var(--sage);
-}
-.pricing__soon { margin-top: 2rem; color: var(--ink-soft); font-size: 0.95rem; }
+.faq__item:last-child { border-bottom: 0; padding-bottom: 0; }
+.faq__item h3 { font-size: 1.15rem; margin-bottom: 0.45rem; }
+.faq__item p { margin: 0; color: var(--ink-soft); }
 
 /* ----------------------- closing signup ----------------------- */
 .closing {

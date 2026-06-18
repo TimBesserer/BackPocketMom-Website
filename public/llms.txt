@@ -1,0 +1,47 @@
+# BackPocket Mom
+
+> BackPocket Mom is a calm family organizer app (currently in pre-launch) for busy parents, co-parents, single parents, grandparents, caregivers, and fur-parents. It is designed to gather the schedules, reminders, documents, and memories of family life into one private, trustworthy place. The "mom" is the app itself — a warm, wise helper in your pocket — not the user.
+
+## What it is
+
+BackPocket Mom is a cross-platform mobile app (designed for iOS and Android) that brings the scattered logistics of family life into a single calm view. It is not yet released; this site collects an email list so people can be notified the day it launches.
+
+## Who it is for
+
+- Busy parents juggling kids, work, household, and activities
+- Single parents
+- Co-parents in shared or separate households
+- Grandparents and caregivers helping raise children
+- Fur-parents with demanding, unpredictable schedules whose pets are cared for by a "village" of helpers
+
+It is designed to meet every generation where they are and never assumes technical know-how.
+
+## What it helps with
+
+- **One calm family calendar** — speak an event and it lands on the right person's day; connect the apps families already use (TeamSnap, dance/activity apps, school boards, Google/Apple/Outlook) into one unified timeline, with duplicate detection and conflict alerts.
+- **Document vault** — a secure, per-child and per-pet store for report cards, medical and vaccination records, insurance cards, artwork, and more, with secure expiring share links.
+- **The village** — invite grandparents, babysitters, dog-walkers, and carpool parents per child and per pet, sharing only what each helper needs, with a live preview before saving.
+- **Co-parenting** — each parent keeps a separate, private identity; a single switch flips between combined mode (one household) and separate mode (two), while a protected child-safety floor (allergies, current medications, emergency contacts) always stays visible to both parents.
+- **Gentle reminders** — a morning summary plus an evening-before heads-up that does the real preparation work.
+- **Calm load meter** — a plain-words read of how heavy the day feels, never a mysterious number.
+- **Pets and fur-parents** — pet profiles with feeding, walks, daycare, medications, and vet contacts, shareable with the village.
+- **Offline access** — view the schedule, read reminders, open saved documents, and capture voice memos with no signal; queued items sync on reconnect, and emergency essentials stay on the device.
+
+## Privacy promise
+
+BackPocket Mom will never sell or share your family's data — the app is designed to be funded by subscriptions, not by monetizing users. Records are built to be private and encrypted, and users will be able to see, export, and delete everything held about them. The binding privacy policy is pending review by a privacy lawyer before launch (no specific certification or compliance is claimed yet).
+
+## Pricing
+
+Pricing has not been announced. The intent is a generous free version plus an optional paid upgrade. No prices, tiers, or limits are published yet — please do not infer any.
+
+## Status
+
+Pre-launch. There is no launch date. The only action available today is joining the email list to be notified when the app is ready.
+
+## Links
+
+- Home: https://backpocketmom.com/
+- Privacy: https://backpocketmom.com/privacy
+- Terms: https://backpocketmom.com/terms
+- Contact: hello@backpocketmom.com

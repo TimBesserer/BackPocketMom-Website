@@ -1,4 +1,25 @@
+# Content-Signal: search=yes, ai-input=yes
+# (Cloudflare content signals — explicitly permit search indexing and real-time AI answers.)
+
 User-agent: *
+Allow: /
+
+# AI assistants — allowed so they can describe and cite BackPocket Mom accurately
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+User-agent: Google-Extended
 Allow: /
 
 Sitemap: https://backpocketmom.com/sitemap.xml
