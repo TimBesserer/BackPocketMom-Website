@@ -106,6 +106,15 @@ const FORM_ENDPOINT = "https://app.kit.com/forms/9580235/subscriptions"; // Kit/
       "<span>got it — we'll let you know the moment we're ready. nothing's lost.</span>" +
       "</p>";
     form.hidden = true;
+    // tidy the rest of the signup block and warm the follow line into a
+    // "while you wait" invite now that they're on the list.
+    var parent = form.parentNode;
+    if (parent) {
+      var note = parent.querySelector(".signup__note");
+      if (note) note.hidden = true;
+      var followLabel = parent.querySelector(".signup__follow-label");
+      if (followLabel) followLabel.textContent = "follow along while you wait";
+    }
     // move focus to the confirmation for screen-reader + keyboard users
     var msg = status.querySelector(".confirm");
     if (msg) { msg.setAttribute("tabindex", "-1"); msg.focus(); }

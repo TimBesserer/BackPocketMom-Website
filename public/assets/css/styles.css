@@ -213,6 +213,27 @@ p  { margin: 0 0 1rem; }
 }
 
 .signup__note { font-size: 0.85rem; color: var(--ink-soft); margin: 0.85rem 0 0; }
+.signup__note[hidden] { display: none; }
+
+/* secondary, calm "follow along" invite under the form (light background) */
+.signup__follow {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
+  gap: 0.15rem 0.55rem; margin-top: 1rem;
+}
+.signup__follow-label { font-size: 0.85rem; color: var(--ink-soft); }
+.signup__follow-icons { display: inline-flex; align-items: center; gap: 0.15rem; }
+.signup__social-link {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 40px; height: 40px; border-radius: 50%;
+  color: var(--espresso-light); text-decoration: none;
+  transition: color 0.18s ease, background-color 0.18s ease;
+}
+.signup__social-link:hover,
+.signup__social-link:focus-visible {
+  color: var(--rose);
+  background: rgba(45, 35, 32, 0.06);
+}
+.signup__social-link svg { width: 20px; height: 20px; display: block; }
 
 /* confirmation / retry (aria-live region) */
 .signup__status { margin-top: 1rem; min-height: 1.5rem; }
@@ -372,6 +393,25 @@ p  { margin: 0 0 1rem; }
   font-size: 0.85rem; color: rgba(245, 236, 215, 0.6);
 }
 .site-footer__signoff { color: rgba(245, 236, 215, 0.85); }
+.site-footer__social {
+  grid-column: 1 / -1;
+  display: flex; flex-wrap: wrap; gap: 0.35rem;
+  justify-content: center; align-items: center;
+  margin-top: 0.75rem;
+}
+.site-footer__social-link {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 44px; height: 44px; border-radius: 50%;
+  color: var(--cream); text-decoration: none;
+  transition: color 0.18s ease, background-color 0.18s ease;
+}
+.site-footer__social-link:hover,
+.site-footer__social-link:focus-visible {
+  color: var(--terracotta);
+  background: rgba(245, 236, 215, 0.08);
+  text-decoration: none;
+}
+.site-footer__social-link svg { width: 22px; height: 22px; display: block; }
 
 /* ----------------------- legal pages ----------------------- */
 .legal { padding-top: clamp(6.5rem, 14vw, 8.5rem); }
