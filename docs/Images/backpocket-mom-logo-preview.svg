@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" role="img" aria-labelledby="title desc">
+  <title id="title">BackPocket Mom logo preview</title>
+  <desc id="desc">A presentation sheet showing the primary logo, app mark, monochrome option, and color palette.</desc>
+  <defs>
+    <style>
+      .sans { font-family: "Segoe UI"; }
+      .serif { font-family: "Georgia"; }
+      .label { font: 600 24px "Segoe UI"; fill: #5C3D2E; }
+      .small { font: 500 19px "Segoe UI"; fill: #5C3D2E; }
+    </style>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#2D2320" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1100" fill="#F8F1E3"/>
+  <rect x="70" y="70" width="1460" height="960" rx="42" fill="#FFFDF8"/>
+
+  <text class="sans" x="118" y="142" font-size="31" font-weight="700" fill="#2D2320">BackPocket Mom logo direction</text>
+  <text class="small" x="119" y="181">Warm, calm, reassuring: a pocket for logistics, a heart for care, and a check for confident help.</text>
+
+  <g transform="translate(118 242)">
+    <text class="label" x="0" y="-30">Primary lockup</text>
+    <g transform="scale(.76)">
+      <g transform="translate(0 0)" filter="url(#shadow)">
+        <path d="M54 42C54 18 72 0 96 0H294C318 0 336 18 336 42V202C336 268 286 317 195 352C104 317 54 268 54 202V42Z" fill="#2D2320"/>
+        <path d="M82 52H308V104C274 119 238 126 195 126C152 126 116 119 82 104V52Z" fill="#E8A87C"/>
+        <path d="M96 138C96 124 107 113 121 113H269C283 113 294 124 294 138V200C294 248 259 283 195 309C131 283 96 248 96 200V138Z" fill="#F5ECD7"/>
+        <path d="M126 151C126 143 132 137 140 137H250C258 137 264 143 264 151V193C264 228 239 254 195 272C151 254 126 228 126 193V151Z" fill="#2D2320"/>
+        <path d="M151 180C151 157 180 151 195 172C210 151 239 157 239 180C239 205 210 218 195 236C180 218 151 205 151 180Z" fill="#D4537E"/>
+        <path d="M169 196L188 215L226 174" fill="none" stroke="#7BAF83" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M88 86C124 104 158 113 195 113C232 113 266 104 302 86" fill="none" stroke="#F5ECD7" stroke-width="8" stroke-linecap="round" stroke-dasharray="3 21"/>
+      </g>
+      <g transform="translate(400 82)">
+        <text class="sans" x="0" y="74" font-size="78" font-weight="750" fill="#2D2320" letter-spacing="0">BackPocket</text>
+        <text class="serif" x="497" y="74" font-size="86" font-weight="700" fill="#D4537E" letter-spacing="0">Mom</text>
+        <path d="M5 114H694" stroke="#E8A87C" stroke-width="8" stroke-linecap="round"/>
+        <text class="sans" x="2" y="166" font-size="31" font-weight="500" fill="#5C3D2E" letter-spacing="0">The calm, wise mom in your back pocket</text>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(118 618)">
+    <text class="label" x="0" y="-30">App mark</text>
+    <rect x="0" y="0" width="248" height="248" rx="54" fill="#F5ECD7"/>
+    <circle cx="47" cy="47" r="14" fill="#E8A87C" opacity="0.78"/>
+    <circle cx="203" cy="198" r="19" fill="#7BAF83" opacity="0.45"/>
+    <g transform="translate(51 34) scale(.24)" filter="url(#shadow)">
+      <path d="M0 94C0 40 40 0 94 0H512C566 0 606 40 606 94V438C606 578 496 681 303 758C110 681 0 578 0 438V94Z" fill="#2D2320"/>
+      <path d="M52 118H554V232C476 268 394 286 303 286C212 286 130 268 52 232V118Z" fill="#E8A87C"/>
+      <path d="M98 302C98 270 124 244 156 244H450C482 244 508 270 508 302V430C508 532 434 607 303 661C172 607 98 532 98 430V302Z" fill="#F5ECD7"/>
+      <path d="M158 332C158 314 172 300 190 300H416C434 300 448 314 448 332V417C448 491 396 548 303 590C210 548 158 491 158 417V332Z" fill="#2D2320"/>
+      <path d="M210 393C210 337 274 326 303 372C332 326 396 337 396 393C396 449 334 481 303 526C272 481 210 449 210 393Z" fill="#D4537E"/>
+      <path d="M248 429L288 469L370 378" fill="none" stroke="#7BAF83" stroke-width="38" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M70 194C146 233 222 252 303 252C384 252 460 233 536 194" fill="none" stroke="#F5ECD7" stroke-width="20" stroke-linecap="round" stroke-dasharray="8 42"/>
+    </g>
+  </g>
+
+  <g transform="translate(448 618)">
+    <text class="label" x="0" y="-30">Single-color mark</text>
+    <rect x="0" y="0" width="248" height="248" rx="54" fill="#2D2320"/>
+    <path d="M50 74C50 47 70 27 97 27H151C178 27 198 47 198 74V155C198 191 172 218 124 239C76 218 50 191 50 155V74Z" fill="#F5ECD7"/>
+    <path d="M70 92H178V118C162 125 144 129 124 129C104 129 86 125 70 118V92Z" fill="#2D2320"/>
+    <path d="M92 151C92 137 109 133 124 149C139 133 156 137 156 151C156 168 138 178 124 194C110 178 92 168 92 151Z" fill="#2D2320"/>
+    <path d="M106 164L120 178L146 148" fill="none" stroke="#F5ECD7" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(792 618)">
+    <text class="label" x="0" y="-30">Palette</text>
+    <g transform="translate(0 0)">
+      <rect width="130" height="130" rx="26" fill="#2D2320"/>
+      <text class="small" x="0" y="166">Espresso</text>
+      <text class="small" x="0" y="194">#2D2320</text>
+    </g>
+    <g transform="translate(160 0)">
+      <rect width="130" height="130" rx="26" fill="#E8A87C"/>
+      <text class="small" x="0" y="166">Terracotta</text>
+      <text class="small" x="0" y="194">#E8A87C</text>
+    </g>
+    <g transform="translate(320 0)">
+      <rect width="130" height="130" rx="26" fill="#D4537E"/>
+      <text class="small" x="0" y="166">Soft rose</text>
+      <text class="small" x="0" y="194">#D4537E</text>
+    </g>
+    <g transform="translate(480 0)">
+      <rect width="130" height="130" rx="26" fill="#7BAF83"/>
+      <text class="small" x="0" y="166">Sage</text>
+      <text class="small" x="0" y="194">#7BAF83</text>
+    </g>
+  </g>
+</svg>

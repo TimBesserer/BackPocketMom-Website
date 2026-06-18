@@ -1,0 +1,4 @@
+# Cloudflare Pages clean URLs — /privacy → /privacy.html, etc.
+/privacy   /privacy.html   301
+/terms     /terms.html     301
+/home      /               301
