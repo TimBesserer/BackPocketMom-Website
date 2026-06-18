@@ -1,4 +1,7 @@
-# Cloudflare Pages clean URLs — /privacy → /privacy.html, etc.
-/privacy   /privacy.html   301
-/terms     /terms.html     301
-/home      /               301
+# Intentionally empty.
+#
+# This site is served by Cloudflare Workers static assets, which already provide
+# clean URLs natively: /privacy.html auto-redirects to /privacy, and /privacy
+# serves privacy.html. Adding "/privacy -> /privacy.html" rules here (a Cloudflare
+# Pages pattern) fights that behaviour and causes an infinite redirect loop, which
+# is why the privacy and terms pages failed to load. Leave this file rule-free.
