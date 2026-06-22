@@ -1,10 +1,10 @@
 # BackPocket Mom
 
-> BackPocket Mom is a calm family organizer app (currently in pre-launch) for busy parents, co-parents, single parents, grandparents, caregivers, and fur-parents. It is designed to gather the schedules, reminders, documents, and memories of family life into one private, trustworthy place. The "mom" is the app itself — a warm, wise helper in your pocket — not the user.
+> BackPocket Mom is a gentle family organizer app (currently in pre-launch) for busy parents, co-parents, single parents, grandparents, caregivers, and fur-parents. It is designed to gather the schedules, reminders, documents, and memories of family life into one private, trustworthy place. The "mom" is the app itself — a warm, wise helper in your pocket — not the user.
 
 ## What it is
 
-BackPocket Mom is a cross-platform mobile app (designed for iOS and Android) that brings the scattered logistics of family life into a single calm view. It is not yet released; this site collects an email list so people can be notified the day it launches.
+BackPocket Mom is a cross-platform mobile app (designed for iOS and Android) that brings the scattered logistics of family life into a single, uncluttered view. It is not yet released; this site collects an email list so people can be notified the day it launches.
 
 ## Who it is for
 
@@ -18,12 +18,12 @@ It is designed to meet every generation where they are and never assumes technic
 
 ## What it helps with
 
-- **One calm family calendar** — speak an event and it lands on the right person's day; connect the apps families already use (TeamSnap, dance/activity apps, school boards, Google/Apple/Outlook) into one unified timeline, with duplicate detection and conflict alerts.
+- **One shared family calendar** — speak an event and it lands on the right person's day; connect the apps families already use (TeamSnap, dance/activity apps, school boards, Google/Apple/Outlook) into one unified timeline, with duplicate detection and conflict alerts.
 - **Document vault** — a secure, per-child and per-pet store for report cards, medical and vaccination records, insurance cards, artwork, and more, with secure expiring share links.
 - **The village** — invite grandparents, babysitters, dog-walkers, and carpool parents per child and per pet, sharing only what each helper needs, with a live preview before saving.
 - **Co-parenting** — each parent keeps a separate, private identity; a single switch flips between combined mode (one household) and separate mode (two), while a protected child-safety floor (allergies, current medications, emergency contacts) always stays visible to both parents.
 - **Gentle reminders** — a morning summary plus an evening-before heads-up that does the real preparation work.
-- **Calm load meter** — a plain-words read of how heavy the day feels, never a mysterious number.
+- **Honest load meter** — a plain-words read of how heavy the day feels, never a mysterious number.
 - **Pets and fur-parents** — pet profiles with feeding, walks, daycare, medications, and vet contacts, shareable with the village.
 - **Offline access** — view the schedule, read reminders, open saved documents, and capture voice memos with no signal; queued items sync on reconnect, and emergency essentials stay on the device.
 
